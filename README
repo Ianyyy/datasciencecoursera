@@ -1,0 +1,5 @@
+Getting and Cleaning Data Peer Review
+
+This repo contains my solution to the peer review project of getting and cleaning data. 
+
+To obtain the tidy result, please change the working directory to local disk and execute "run_analysis.R" in the repo. 
