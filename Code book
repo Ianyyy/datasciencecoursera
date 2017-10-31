@@ -52,3 +52,18 @@ tBodyAcc-mean()-X           tBodyAcc-mean()-Y           tBodyAcc-mean()-Z       
 	fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std()
   
   
+  ####My work
+  
+
+There are mainly five steps in run_analysis. R
+
+Step-1: Read data from test and training samples and merge the samples according to variables name using cbind() and rbind()
+
+Step-2: Extract only the measurements on the mean and standard deviation for each measurement using grepl()
+
+Step-3: Read activity_lables file and merge the lables to the dataset to name the activities
+
+Step-4: Clean variable names using gsub() using gsub to delete unnecessary symbols
+
+Step-5: Create a second dataset with the average of each variable for each activity
+  
